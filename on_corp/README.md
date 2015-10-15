@@ -14,3 +14,7 @@ This condition expects there to be a URL with a plist that returns the following
 ```
 
 If the client recieves the above plist, the ``on_corp`` conditon will be set to ``True``. If the client receieves a HTTP error or cannot access the URL at all, ``on_corp`` will be set to ``False``.
+
+## Building the package
+
+This package should be built with [The Luggage](https://github.com/unixorn/luggage).
